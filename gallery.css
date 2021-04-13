@@ -1,0 +1,102 @@
+body
+{
+  position: absolute;
+  background-color: black;
+}
+
+.container1 
+{
+  margin-top: 0%;
+  margin-left:10%;
+  position: relative;
+  width: 80%;
+}
+
+.mySlides 
+{
+  display: none;
+}
+
+.cursor 
+{
+  cursor: pointer;
+}
+
+.prev, .next 
+{
+  cursor: pointer;
+  position: absolute;
+  top: 42%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: white;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 14.28%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+#bttn
+{
+  position: fixed;
+  background: url('back.png');
+  text-decoration:none;
+  width:60px;
+  height: 45px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-width:1px;
+  border-radius: 10px;
+  border-color: #FF9900;
+  border-style: solid;
+  margin-left:2.5%;
+  margin-top: 1%;
+}
